@@ -1,6 +1,18 @@
 * {
+<<<<<<< HEAD
     margin:100px;
     }
     body {
     background:skyblue;
     }
+=======
+margin:100px;
+}
+body {
+<<<<<<< HEAD
+background:skyblue;
+=======
+background:red;
+>>>>>>> TESTING
+}
+>>>>>>> DESARROLLO
