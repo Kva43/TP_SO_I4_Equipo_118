@@ -1,0 +1,17 @@
+A) El color de fondo es Azul
+B) El color de fondo es Amarillo
+C) El color de fondo es Azul
+D) En nuestro caso quedaron los 2 porque usamos 2 archivos distintos, en el caso de que el 
+archivo tenga el mismo nombre surgira un conflicto y deberiamos elegir con cual quedarnos
+El archivo que elijamos ya sea el de Alfa o el de Beta es que deberia quedar en el master
+
+E) Los conflictos que surgieron eran porque estabamos intentando hacer un push
+y no teniamos la ultima version del repositorio, en el caso de Alfa al hacer el primer push no h
+no hubo ningun conflicto, pero al momento de hacerlo beta y gamma, surgia este problema
+que se soluciona haciendo un git pull luego del push de cada uno.
+G) La solucion que encontramos nosotros es hacer un git pull cada vez que uno de los demas colaboradores haga un push
+O mismo antes de nosotros hacer el git add hacer un pull para tener la ultima version de la rama.
+H) No lo utilizamos, pero segun lo que estuvimos averiguando lo que hacer el push -f es forzar el push
+y basicamente lo que hace es pushearlo sin importar los cambios de la Rama.
+I) Deberiamos hacer un Merge entre TESTING y DESARROLLO, guardando los cambios del index.html, y dejando
+los cambios hechos en Desarrollo en el archivo estilos.css y descartar los cambios que se hcieron en TESTING(Para que en en desarrollo queden los cambios hechos en esta Rama). 
